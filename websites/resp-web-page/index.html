@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="sal.css" />
+    <title>Responsive website</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Header -->
+      <header>
+        <a href="#" class="logo">Brand Name</a>
+        <div class="toggle" onclick="toggleClassName()"></div>
+      </header>
+      <!-- End of header -->
+
+      <!-- sidebar  -->
+      <div class="sidebar">
+        <ul>
+          <li><a href="#home" onclick="toggleClassName();">Home</a></li>
+          <li><a href="#about" onclick="toggleClassName();">About</a></li>
+          <li><a href="#services" onclick="toggleClassName();">Services</a></li>
+          <li><a href="#clients" onclick="toggleClassName();">Clients</a></li>
+          <li>
+            <a href="#testimonials" onclick="toggleClassName();"
+              >Testimonials</a
+            >
+          </li>
+          <li><a href="#team" onclick="toggleClassName();">Team</a></li>
+          <li>
+            <a href="#contact" onclick="toggleClassName();">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+      <!-- sidebar end -->
+
+      <!-- Banner start -->
+      <div class="banner" id="home">
+        <img src="./images/bg.jpg" alt="background" />
+        <div class="content" data-sal="slide-left" data-sal-duration="800">
+          <h2>Success By Design</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque,
+            laboriosam fuga! Culpa, vero dignissimos autem, quo unde, ullam
+            maxime provident iste odit voluptate pariatur aperiam quos labore
+            accusamus placeat et?
+          </p>
+        </div>
+      </div>
+      <!-- Banner End -->
+
+      <!-- About us -->
+      <section class="about" id="about">
+        <div class="contentBx">
+          <h2 class="heading" data-sal="slide-right" data-sal-duration="500">
+            About Us
+          </h2>
+          <p class="text" data-sal="slide-right" data-sal-duration="500">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A sapiente
+            minus dolor in ipsa repellat excepturi praesentium nulla blanditiis
+            voluptatibus, ratione ipsum aperiam nostrum molestiae reiciendis,
+            recusandae tempora itaque cum. <br />minus dolor in ipsa repellat
+            excepturi praesentium nulla blanditiis voluptatibus, ratione ipsum
+            aperiam nostrum molestiae reiciendis, recusandae tempora itaque cum.
+            minus dolor in ipsa repellat excepturi praesentium nulla blanditiis
+            voluptatibus, ratione ipsum aperiam nostrum molestiae reiciendis,
+            recusandae tempora itaque cum.<br />
+          </p>
+        </div>
+        <div class="imgBx" data-sal="slide-left" data-sal-duration="500"></div>
+      </section>
+      <!-- End of About Us -->
+
+      <!-- Services Section -->
+      <section class="services" id="services">
+        <h2
+          class="heading"
+          data-sal="zoom-in"
+          data-sal-delay="300"
+          data-sal-duration="500"
+          data-sal-easing="ease-out-back"
+        >
+          Our Services
+        </h2>
+        <p
+          class="text"
+          data-sal="zoom-in"
+          data-sal-delay="300"
+          data-sal-duration="500"
+          data-sal-easing="ease-out-back"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate
+          ratione commodi totam repudiandae sequi voluptatum odio iste delectus
+          magni, officiis qui architecto molestiae, eos dolorum. Maiores,
+          obcaecati corporis repellat earum nihil inventore sit, excepturi et
+          illo, nobis provident culpa corrupti beatae modi libero facilis
+        </p>
+        <div class="container">
+          <div class="serviceBx" data-sal="slide-right" data-sal-duration="800">
+            <div>
+              <img src="images/icon1.png" alt="" />
+              <h2>Design</h2>
+            </div>
+          </div>
+
+          <div class="serviceBx" data-sal="zoom-in" data-sal-duration="800">
+            <div>
+              <img src="images/icon2.png" alt="" />
+              <h2>Development</h2>
+            </div>
+          </div>
+
+          <div class="serviceBx" data-sal="slide-left" data-sal-duration="800">
+            <div>
+              <img src="images/icon3.png" alt="" />
+              <h2>Branding</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of Services section -->
+
+      <!-- Technologies Section -->
+      <section class="technologies" id="technologies">
+        <div class="contentBx">
+          <h2 class="heading">We Use Cutting Edge Technologies</h2>
+          <p class="text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis
+            minus voluptatibus minima eum dolor error odio itaque vero
+            architecto harum? Quae reiciendis repudiandae qui odio et tenetur
+            consequuntur officiis reprehenderit totam accusamus sequi sint
+          </p>
+        </div>
+        <div class="imgBx">
+          <img src="images/tech.png" alt="tech" />
+        </div>
+      </section>
+      <!-- End of technologies section -->
+
+      <!-- Clients Section  -->
+      <section class="clients" id="clients">
+        <h2 class="heading">Our Clients</h2>
+        <p class="text">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error cum
+          saepe optio autem porro, minima reiciendis dolor, illo, non possimus
+          explicabo placeat nobis quo quaerat dicta. Incidunt mollitia modi
+          sapiente? Quas enim in amet saepe quidem repellat dolorum nisi nam
+          fugit architecto recusandae dolores provident, aliquid laboriosam
+          voluptate voluptatibus dolor doloremque commodi cum. Cupiditate iusto
+          veritatis culpa ipsum deleniti perspiciatis, nulla ducimus in
+          corporis, est ut fugiat. Explicabo itaque suscipit odio numquam aut ad
+          magni ipsum fugiat, quas optio obcaecati, modi blanditiis laudantium
+          voluptatibus, exercitationem assumenda veniam. Mollitia pariatur
+          deserunt error inventore ducimus. Provident consequuntur sunt sapiente
+          debitis, ratione rem?
+        </p>
+
+        <div class="imgBx">
+          <img src="images/brand1.png" alt="" srcset="" />
+          <img src="images/brand2.png" alt="" srcset="" />
+          <img src="images/brand3.png" alt="" srcset="" />
+          <img src="images/brand4.png" alt="" srcset="" />
+        </div>
+      </section>
+      <!-- End of Clients Section -->
+
+      <!-- Testimonials section  -->
+      <section class="testimonial" id="testimonials">
+        <h2 class="heading">What our client says</h2>
+        <div class="container">
+          <div class="contentBx">
+            <div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+                expedita consequuntur possimus, praesentium hic mollitia eveniet
+                repellat maiores tenetur natus optio minus sapiente quos porro,
+                ad inventore. Eveniet vitae dolores nobis veniam animi! Neque
+                unde voluptatum assumenda, animi magni porro! Voluptatum fugiat
+                rem id laborum quis accusamus, sed odio ducimus, officia at iure
+                ab exercitationem delectus eos odit earum. Unde, voluptas? Nisi
+                mollitia similique eum enim beatae, quidem maiores labore?
+                Architecto eum facere ad mollitia aut unde aliquam amet, vitae
+                voluptas, dolorem voluptate? Provident dignissimos accusamus
+                deleniti vero laborum aut laboriosam, repudiandae vitae debitis
+                maxime sit adipisci quasi expedita labore?
+              </p>
+              <br />
+              <h3>Someone Famous</h3>
+            </div>
+          </div>
+          <div class="contentBx">
+            <div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+                expedita consequuntur possimus, praesentium hic mollitia eveniet
+                repellat maiores tenetur natus optio minus sapiente quos porro,
+                ad inventore. Eveniet vitae dolores nobis veniam animi! Neque
+                unde voluptatum assumenda, animi magni porro! Voluptatum fugiat
+                rem id laborum quis accusamus, sed odio ducimus, officia at iure
+                ab exercitationem delectus eos odit earum. Unde, voluptas? Nisi
+                mollitia similique eum enim beatae, quidem maiores labore?
+                Architecto eum facere ad mollitia aut unde aliquam amet, vitae
+                voluptas, dolorem voluptate? Provident dignissimos accusamus
+                deleniti vero laborum aut laboriosam, repudiandae vitae debitis
+                maxime sit adipisci quasi expedita labore?
+              </p>
+              <br />
+              <h3>Someone Famous</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of Testimonials section -->
+
+      <!-- Start of team section -->
+      <section class="team" id="team">
+        <h2 class="heading">Our Team</h2>
+        <p class="text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad,
+          voluptates incidunt! Error autem obcaecati doloribus voluptate
+          expedita placeat deleniti non, sit maiores voluptas unde magnam
+          voluptatem rem corrupti accusamus temporibus illo, magni praesentium.
+          Ducimus totam magnam earum sed minus quod?
+        </p>
+
+        <div class="container">
+          <div class="teamBx">
+            <div class="box">
+              <div class="imgBx">
+                <img src="images/1.jpg" />
+              </div>
+              <div class="content">
+                <h2>Someone Famous<br /><span>CEO & Founder</span></h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="teamBx">
+            <div class="box">
+              <div class="imgBx">
+                <img src="images/2.jpg" />
+              </div>
+              <div class="content">
+                <h2>Someone Famous<br /><span>CEO & Founder</span></h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="teamBx">
+            <div class="box">
+              <div class="imgBx">
+                <img src="images/3.jpg" />
+              </div>
+              <div class="content">
+                <h2>Someone Famous<br /><span>CEO & Founder</span></h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="teamBx">
+            <div class="box">
+              <div class="imgBx">
+                <img src="images/4.jpg" />
+              </div>
+              <div class="content">
+                <h2>Someone Famous<br /><span>CEO & Founder</span></h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of Team Section -->
+
+      <!-- Start of Contact Us Section -->
+      <section class="contact" id="contact">
+        <div>
+          <h2 class="heading">Contact Us</h2>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa illo
+            alias, id nobis dolorum quo aperiam sunt ad delectus porro. Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Culpa illo alias,
+            id nobis dolorum quo aperiam sunt ad delectus porro.
+          </p>
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="contentBx redBg">
+          <div class="form">
+            <div class="inputBx">
+              <input type="text" name="" placeholder="Full Name" />
+            </div>
+            <div class="inputBx">
+              <input type="text" name="" placeholder="Email Address" />
+            </div>
+
+            <div class="inputBx">
+              <input type="text" name="" placeholder="Phone Number" />
+            </div>
+
+            <div class="inputBx">
+              <textarea placeholder="Write your message here..."></textarea>
+            </div>
+
+            <div class="inputBx">
+              <input type="submit" value="Send" />
+            </div>
+          </div>
+        </div>
+        <div class="imgBx2"></div>
+      </section>
+      <!-- End of Contact Us Section -->
+
+      <!-- Footer section -->
+      <section class="footer">
+        <p class="text">Design a Developed By Harikrishna B</p>
+        <ul>
+          <p class="text">Follow us on :</p>
+          <li>
+            <a href="#"><img src="images/facebook.png" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="images/twitter.png" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="images/linkedin.png" /></a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- End of Footer section -->
+    </div>
+
+    <script type="text/javascript" src="sal.js"></script>
+    <script type="text/javascript">
+      sal({
+        // threshold: 1,
+        once: false,
+      });
+
+      function toggleClassName() {
+        var sidebar = document.querySelector(".sidebar");
+        var wrapper = document.querySelector(".wrapper");
+        var toggle = document.querySelector(".toggle");
+        sidebar.classList.toggle("active");
+        wrapper.classList.toggle("active");
+        toggle.classList.toggle("active");
+      }
+
+      window.addEventListener("scroll", function () {
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+      });
+    </script>
+  </body>
+</html>
